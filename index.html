@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Sergio">
+    <meta name="Description" content="Apuntes de Javascript">
+    <meta name="Keywords" content="Javasript">
+    <title>Apuntes de Javascript</title>
+    <script src="js/main.js"></script>
+    <link href="css/index.css">
+    <script>
+        let nombre ='Sergio Martínez Fernández';
+        console.log ('Sergio Martínez Fernández')
+        document.write ('Sergio Martínez Fernández')
+    </script>
+</head>
+<body>
+    <p id="vacio"></p>
+    <button onclick="document.getElementById('vacio').innerHTML = 'Hola, Buenos días es Lunes'" >Pincha y te saludo</button> <br>
+    
+    <button onclick="document.getElementById('feliz').src='img/carafeliz.jpg'">Cara feliz</button>
+    <img src="img/caratriste.jpg" id="feliz" alt="Emoji">
+    <button onclick="document.getElementById('feliz').src='img/caratriste.jpg'">Cara triste</button>
+</body>
+</html>
